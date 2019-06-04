@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.div`
-  background-color: #6699CC;
+  background-color: skyblue;
   width: 150px;
-  height: 95px;
-  padding-top: 30px;
+  height: 60px;
+  padding-top: 20px;
   text-align: center;
   font-size: x-large;
 `;
