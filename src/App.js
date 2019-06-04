@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import styled from "styled-components";
 import Button from "./component/button";
@@ -43,7 +44,7 @@ class App extends Component {
         <Block>
           <ShowBlock />
           <NumBlock>
-           {/* <Button
+            <Button
               title="1"
               backgroundColor="blue"
               onClickButton={() => this.handleClickButton("1")}
@@ -93,7 +94,6 @@ class App extends Component {
               backgroundColor="blue"
               onClickButton={() => this.handleClickButton("0")}
             /> 
-           */}
           </NumBlock>
           <CalBlock />
         </Block>
